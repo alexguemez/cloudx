@@ -1,0 +1,41 @@
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.wrap {
+	padding: 0 5%;
+}
+
+h1 {
+	font-size: 2.986rem;
+	line-height: 3.5rem;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 2.488rem;
+}
+
+p, ul, ol {
+	line-height: 1.5rem;
+}
+
+.site-title {
+	font-size: 1.44rem;
+	font-weight: 600;
+}
+
+.site-footer {
+	margin-top: 4rem;
+	padding: 2rem 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (min-width:768px){
+	.wrap {
+		margin: 0 auto;
+		padding: 0;
+		max-width: 768px;
+	}
+}
